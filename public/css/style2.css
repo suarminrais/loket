@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 12px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main video {
+    width: 98%;
+    height: 94%;
+    margin: 1%;
+}
+
+.main {
+    width: 61%;
+    height: 100%;
+    float: left;
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    width: 39%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+
+.covering {
+    width: 85%;
+    height: 67%;
+    margin: 4% 7.5% 0%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.cardTime {
+    position: relative;
+    width: 85%;
+    height: 21%;
+    margin: 5% 7.5% 0%;
+    float: left;
+    background: white;
+}
+
+.gaya2 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 35%;
+    background-image: url(../image/Group19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover {
+    margin: 1% 1%;
+}
+
+.col-6 {
+    position: relative;
+    width: 40%;
+    height: 18%;
+    margin-left: 7%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gaya {
+    width: 100%;
+    height: 20%;
+    background-image: url(../image/gaya.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sudut {
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.biru {
+    background-image: url(../image/Rectangle9.png);
+}
+
+.gayaA {
+    background-image: url(../image/biru.png);
+    bottom: 0%;
+    right: 0%;
+    width: 40%;
+    height: 60%;
+}
+
+.orange {
+    background-image: url(../image/Rectangle10.png);
+}
+
+.gayaB {
+    background-image: url(../image/orange.png);
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: 70%;
+}
+
+.ungu {
+    background-image: url(../image/Rectangle11.png);
+}
+
+.gayaC {
+    background-image: url(../image/ungu.png);
+    width: 70%;
+    height: 50%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.ungu2 {
+    background-image: url(../image/Rectangle12.png);
+}
+
+.gayaD {
+    background-image: url(../image/ungu1.png);
+    width: 70%;
+    height: 70%;
+    top: 0%;
+    left: 0%;
+}
+
+.kuning {
+    background-image: url(../image/Rectangle13.png);
+}
+
+.gayaE {
+    background-image: url(../image/kuning.png);
+    width: 59%;
+    height: 58%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.toska {
+    background-image: url(../image/Rectangle3.png);
+}
+
+.gayaF {
+    background-image: url(../image/toska.png);
+    width: 50%;
+    height: 68%;
+    right: 0%;
+    top: 0%;
+}
+
+.atas {
+    margin-top: 1.5%;
+}
+
+.bawah {
+    margin-top: 2%;
+}
+
+
+/* konten */
+
+.antrian {
+    padding-top: 5%;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ket {
+    text-align: center;
+}
+
+.no-antrian,
+.jml-antrian {
+    margin-top: -6%;
+    display: inline-block;
+    color: #060A0D;
+    font-family: Montserrat;
+}
+
+.no-antrian {
+    font-weight: 600;
+    line-height: 244px;
+    font-size: 14em;
+    margin-left: 7.5%;
+}
+
+.jml-antrian {
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 38px;
+}
+
+.order {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 28px;
+    color: #060A0D;
+    margin-top: -8%;
+}
+
+.ket2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 23px;
+    margin-left: 7%;
+    margin-top: 4.5%;
+    color: #060A0D;
+}
+
+
+/* cardKonten */
+
+.ket3 {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.no-antrian2,
+.jml-antrian2 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    margin-top: -2%;
+}
+
+.order2 {
+    margin-top: 7%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.no-antrian2 {
+    font-size: 5.5em;
+    margin-left: 9%;
+}
+
+
+/* isi timeCard */
+
+.waktu {
+    margin: 2.5% 0% 0% 2.5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6em;
+    color: #060A0D;
+}
+
+.time {
+    padding-top: 2%;
+    text-align: center;
+    color: #060A0D;
+}
+
+time {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.date {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 29px;
+}
+
+
+/* helpdesk */
+
+.sidebarleft {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    background: white;
+    float: left;
+    color: #060A0D;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.sidebarright {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background: #48A9F4;
+    float: left;
+}
+
+.leftgrap {
+    position: relative;
+    width: 90%;
+    height: 21%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.aksesoris1 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 12%;
+    background: #FFFFFF;
+    opacity: 0.38;
+}
+
+.aksesoris2 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 12%;
+    background: #FFFFFF;
+    opacity: 0.38;
+}
+
+.main-content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 56px;
+    margin-top: 1%;
+}
+
+.main-content p.info {
+    position: relative;
+    margin-top: 2%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 34px;
+}
+
+.lingkaran {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: white;
+    border-radius: 50%;
+    border: .1px solid black;
+    margin-top: 4%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.lingkaran p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.5em;
+    margin-top: 16%;
+}
+
+.order3 {
+    width: 25%;
+}
+
+.order3 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: 10%;
+}
+
+.garis {
+    margin-top: 5%;
+    border: 1px solid #060A0D;
+}
+
+.btn1,
+.btn2 {
+    margin: 5%;
+    margin-top: 2%;
+    width: 12%;
+    height: 45px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 10px;
+    border: 2px solid #488BD7;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #488BD7;
+}
+
+.hm .btn1 {
+    width: 30%;
+}
+
+.btn-start {
+    transition: 1s;
+    background: #488BD7;
+    color: white;
+}
+
+.waktu-kanan {
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    margin-top: 50%;
+}
+
+.waktu-kanan .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+.waktu-kanan img {
+    margin-top: 10%;
+}
+
+.time2 {
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+    margin-top: 10%;
+}
+
+.date2 {
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 1.3em;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.hm {
+    width: 44%;
+    float: left;
+    margin-top: 7.5%;
+}
+
+@media screen and (max-width: 991px) {
+    * {
+        padding: 0%;
+        margin: 0%;
+        font-size: 7.5px;
+    }
+}
+
+
+/* @media screen and (max-width: 991px) {
+    .header {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 48%;
+        height: 150px;
+        margin: 1%;
+        background: black;
+        float: left;
+    }
+
+    .main {
+        width: 100%;
+        height: 380px;
+
+        float: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 300px;
+        background: aqua;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .header {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 98%;
+        height: 200px;
+        background: black;
+
+    }
+
+    .main {
+        width: 100%;
+        height: 960px;
+
+    }
+
+} */
